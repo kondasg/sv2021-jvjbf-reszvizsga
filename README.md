@@ -27,7 +27,7 @@ A `Movie` osztályban továbbá szerepeljen egy metódus ami paraméterül vár 
 
 A `MovieService` osztály tárolja egy listában a filmeket. Kezdetben a lista üres. Ez az osztály felelős az egyedi azonosítók kiosztásáért is. 
 
-A `MoviController` osztály alapértelmezzetten a `api/cinema` URL-n várja a kéréseket és a következő funkciókat valósítja meg!
+A `MovieController` osztály alapértelmezzetten a `api/cinema` URL-n várja a kéréseket és a következő funkciókat valósítja meg!
 
 * Le lehet kérdezni az összes filmet, és opcionálisan a film címére is rá lehet szűrni. Ekkor mindig a címet, az időpontot és szabad helyek számát adjuk vissza!
 
@@ -42,7 +42,7 @@ A `MoviController` osztály alapértelmezzetten a `api/cinema` URL-n várja a k�
 * Lehessen törölni az összes filmet. 
 
 * A következő szempontokat vegyük még figyelembe:
-	* Új film címe nem lehet üres, és legalább 20 helynek kell lennie a maximumnak
+	* Új film címe nem lehet üres, és legalább 20 helynek kell lennie rá
 	* Ha a megfelelő id-n keresztül nem található a film akkor 404-es státuszkóddal térjünk vissza.
 	* Ha több helyet akarunk foglalni mint ahány szabad hely van, akkor ne történjen meg a foglalás. Térjünk vissza 400 BAD_REQUEST státuszkóddal
   
